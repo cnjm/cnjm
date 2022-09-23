@@ -1,16 +1,16 @@
-### Hi there 👋
-
-<!--
-**cnjm/cnjm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+### Hi  👋
+<!-- 
+![cnjm's GitHub stats](https://github-readme-stats.vercel.app/api?username=cnjm&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cnjm&layout=compact&theme=tokyonight)  
+![CSDN](https://stats.justsong.cn/api/csdn?id=weixin_42998707&theme=dark) 
 -->
+
+[<span><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=all-smile&layout=compact&theme=tokyonight" height=150/></span><span><img src="https://github-readme-stats.vercel.app/api?username=cnjm&show_icons=true&theme=tokyonight" height=150/></span>](https://cnjm.top)
+
+### cnjm's Blog
+[<span><img src="https://stats.justsong.cn/api/csdn?id=weixin_42998707&theme=dark"/></span>](https://blog.csdn.net/weixin_42998707?type=lately)
+
+
+
+
+
