@@ -18,6 +18,7 @@
   <body>
     <canvas id="canvas"></canvas>
     <script>
+      let uName = getQueryVariable("u");
       const { clientWidth, clientHeight } = document.documentElement;
       let canvasEl = document.getElementById("canvas");
       let ctx = canvasEl.getContext("2d");
@@ -36,6 +37,18 @@
       let renderFrame = 0; // render
 
       ctx.strokeStyle = HEART_COLOR; // 设置画笔颜色
+
+      function getQueryVariable(variable) {
+        const query = window.location.search.substring(1);
+        const vars = query.split("&");
+        for (let i = 0; i < vars.length; i++) {
+          const pair = vars[i].split("=");
+          if (pair[0] == variable) {
+            return decodeURIComponent(pair[1]);
+          }
+        }
+        return false;
+      }
 
       function getHeart(t, shrinkRatio = ENLARGE) {
         let x = 16 * Math.pow(Math.sin(t), 3);
@@ -195,7 +208,13 @@
 
       function render() {
         ctx.clearRect(0, 0, clientWidth, clientHeight);
-        heart.render();
+        if (uName) {
+          const len = uName.length;
+          ctx.fillStyle = HEART_COLOR;
+          ctx.font = "28px Arial";
+          ctx.fillText(uName, DEVIATION_W - len * 14, DEVIATION_H);
+        }
+        // heart.render();
         renderFrame++;
       }
       setInterval(() => {
